@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../webfontkit_Raleway/raleway-regular-webfont.woff2') format('woff2'),
+    url('../webfontkit_Raleway/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'josefin_sansregular';
+    src: url('../webfontkit-20180701-012526/josefinsans-regular-webfont.woff2') format('woff2'),
+    url('../webfontkit-20180701-012526/josefinsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sacramento';
+    src:  url('../webfonts_Sacramento/Sacramento.ttf.woff') format('woff'),
+    url('../webfonts_Sacramento/Sacramento.ttf.svg#Sacramento') format('svg'),
+    url('../webfonts_Sacramento/Sacramento.ttf.eot'),
+    url('../webfonts_Sacramento/Sacramento.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bg-pic{
+    background-image: url("../images/header-bgt.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-position: 98%;*/
+    padding: 0px 0px 2.5% 0px;
+}
+
+.bg-pic2{
+    background-image: url("../images/Image3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-position: 98%;*/
+    padding: 0px 0px 2.5% 0px;
+    margin-top: 5%;
+}
+
+
+
+body{
+    font-family: josefin_sansregular;
+}
+
+
+.main-menu .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.75rem;
+    padding-left: 0.25rem;
+}
+
+.main-menu .navbar-dark .navbar-brand {
+    color: #fff;
+    font-family: "Times New Roman";
+    /*font-size: 14px;*/
+}
+
+.main-menu .navbar-dark .navbar-nav .nav-link {
+    font-family: ralewayregular;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.header-inner{
+    padding-top: 5%;
+}
+
+.header-inner h3{
+    font-family: Sacramento;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.header-inner h1 {
+    font-family: josefin_sansregular;
+    font-size: 59px;
+    color: white;
+}
+
+.header-inner a{
+    font-family: ralewayregular;
+    font-size: 16px;
+}
+
+.header-inner p{
+    font-family: ralewayregular;
+    font-size: 10px;
+    color: white;
+    margin: 1.2% 0%;
+}
+
+.slash{
+    font-size: 36px;
+    color: #FAB28B;
+    font-weight: bold;
+}
+
+.about-inner {
+    padding: 2.5% 0%;
+}
+
+.about-inner h3{
+    font-family: josefin_sansregular;
+    font-size: 48px;
+}
+
+.about-inner h5{
+    font-family: josefin_sansregular;
+    font-size: 18px;
+    padding: 1.5% 0%;
+}
+
+.about-inner p{
+    font-family: ralewayregular;
+    font-size: 14px;
+    color: #959595;
+}
+.image-responsive{
+    height: 100%;
+    width: 100%;
+}
+
+.about-card-inner .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0rem;
+}
+
+.inner-img-overlay h3{
+    font-family: josefin_sansregular;
+    font-size: 24px;
+    color: white;
+}
+
+.inner-img-overlay p{
+    font-family: ralewayregular;
+    font-size: 14px;
+    color: white;
+}
+
+.inner-img-overlay-text{
+    position: relative;
+    top: 375px;
+}
+
+.inner-img-overlay-icon{
+    position: relative;
+    top: 175px;
+    left: 150px;
+}
+
+.inner-img-overlay{
+    display: none;
+    transition: 2s;
+}
+
+.about-card-inner:hover .inner-img-overlay{
+    display: block;
+}
+
+.icon-text h4 {
+    font-family: josefin_sansregular;
+    font-size: 35.93px;
+}
+
+.icon-text p {
+    font-family: ralewayregular;
+    font-size: 18px;
+}
+
+.latest-menu nav{
+    justify-content: center;
+}
+
+.latest-menu .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-family: ralewayregular;
+    font-size: 14px;
+    color: #f9ad81;
+}
+
+.latest-menu .navbar-expand-sm .navbar-nav .nav-link:hover{
+    background-color: #f9ad81;
+    color: white;
+}
+
+.latest-menu .navbar-expand-sm .navbar-nav .nav-link:active{
+    background-color: #f9ad81;
+    color: white;
+}
+
+.project-img{
+    height: 300px;
+    background-color: #f9ad81;
+}
+
+.btn-manual{
+    background-color: #f9ad81;
+    color: white;
+}
+
+.project-img{
+    height: 275px;
+    width: 100%;
+}
+
+.btn-manual:hover{
+    color: grey;
+}
+
+.bg-grey{
+    background-color: #f1f1f1;
+    margin: 5% 0% 0% 0%;
+    padding: 5% 0%;
+}
+
+.insta-info{
+    text-align: center;
+}
+
+.insta-info p {
+    font-family: ralewayregular;
+    font-size: 14px;
+    margin: 0%;
+}
+
+.insta-info h3 {
+    font-family: josefin_sansregular;
+    font-size: 36px;
+}
+
+.owl-dots{
+    display: none;
+}
+
+.footer-info{
+    text-align: center;
+}
+
+.footer-info h3{
+    font-family: "Times New Roman";
+    font-size: 36px;
+}
+
+.footer-info .nav .nav-link{
+    font-family: ralewayregular;
+    font-size: 14px;
+    color: black;
+}
+
+
+.mab{
+    margin-bottom: 25%;
+}
